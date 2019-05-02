@@ -1,3 +1,5 @@
 rootProject.name = 'AndroidProgressBar'
 
+include ':react-native-androidprogressbar'
+project(':react-native-androidprogressbar').projectDir = new File(rootProject.projectDir, '../../android')
 include ':app'
